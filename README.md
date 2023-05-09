@@ -50,6 +50,8 @@ Few important properties of arnold map include:<br>
 <h3> Duffing Map </h3>
 <p>The Duffing map (also called 'Holmes map') is a discrete-time dynamical system. It is an example of a dynamical system that exhibits chaotic behavior.The map depends on the two constants a and b. These are usually set to a = 2.75 and b = 0.2 to produce chaotic behaviour. It is a discrete version of the Duffing equation</p>
 <img src="Data/duffing_arch.png" alt="GAN Image">
+
+
 ## Images
 ### Original Image
 
@@ -60,13 +62,25 @@ Few important properties of arnold map include:<br>
 
 #### Image after Arnold Cat Encryption
 
-![Arnold cat encryption](graphs/arnoldcatencryption.png )
+![Arnold cat encryption](Data/Test1_ArnoldcatEnc.png )
 #### Image after Henon Map Encryption
 
-![Henon Map Encryption](graphs/henonencryption.png )
+![Henon Map Encryption](Data/testa_HenonEnc.png )
 #### Image after Logistic Map Encryption
 
-![Logistic Map Encryption](graphs/logisticencryption.png)
+![Logistic Map Encryption](Data/testa_log.png )
+
+## Visualisation
+
+### Arnold Encryption
+<img src="Data/arnold.gif" alt="GAN Image">
+<br>
+### Henon Encryption
+<img src="Data/henon.gif" alt="GAN Image">
+<br>
+### Duffing Encryption
+<img src="Data/duffing.gif" alt="GAN Image">
+
 
 ## Intensity Histogram
 

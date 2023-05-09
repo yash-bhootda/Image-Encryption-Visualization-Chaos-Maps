@@ -74,12 +74,11 @@ Few important properties of arnold map include:<br>
 
 ### Arnold Encryption
 <img src="Data/arnold.gif" alt="GAN Image">
-<br>
+
+
 ### Henon Encryption
 <img src="Data/henon.gif" alt="GAN Image">
-<br>
-### Duffing Encryption
-<img src="Data/duffing.gif" alt="GAN Image">
+
 
 
 ## Intensity Histogram

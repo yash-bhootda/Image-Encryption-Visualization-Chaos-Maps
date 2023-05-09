@@ -27,17 +27,33 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 *   pseudorandom properties
 *   ergodicity
 *   non periodicity
-
-<hr>
-
-
-<br>
-Alternatively it is in ChaosEncryption.ipynb
-
+<h2>System Architecture</h2>
+<img src="Data/main_arch.png" alt="GAN Image">
+<p>This is the black box diagram of our project and as we can see that the input is an image along with a user defined key. This key is what decides how many times the algorithm must be run which must be kept secret by the user as it can be used later to decrypt. The output of this black box is an encrypted image.</p>
+<h2> Chaos Maps </h2>
+<h3> Arnold Cat </h3>
+<p>Arnold's cat map is a chaotic map from the torus into itself. It is named after Vladimir Arnold, who demonstrated its effects using a cat image in the 1960s, hence the name
+Few important properties of arnold map include:<br>
+●	It is invertible due to the fact that the matrix has a determinant of 1 and its inverse has integer entries.<br>
+●	It is area preserving<br>
+●	It is ergodic and mixing<br>
+●	It is an Anosov diffeomorphism and in particular it is structurally stable.<br></p>
+<img src="Data/chaos_arch.png" alt="GAN Image">
+<h3> Henon Map </h3>
+<p>Henon map may be stated as a two-dimensional iterated discrete-time dynamical system with a chaotic attractor as proposed by Henon in 1976.Henon map is employed for generating random values, which is used in diffusion process. To guarantee the security of this new method various statistical analysis are carried out. The results show that the proposed method ensures the highest security level in terms of NPCR, UACI and entropy of the cipher image</p>
+<img src="Data/henon_arch.png" alt="GAN Image">
+<h3> Logistic Map</h3>
+<p>The logistic map is a polynomial mapping (or, equivalently, a recurrence relation) of degree 2. It is frequently cited as a prototypical illustration of how complex, chaotic behavior can result from extremely basic nonlinear dynamical equations. The objective of this nonlinear difference equation is to represent two effects:<br>
+●	reproduction, in which the population grows at a rate proportional to its present size when the population is small.<br>
+●	Starvation (density-dependent mortality), in which the growth rate will decrease at a rate proportional to the value obtained by subtracting the present population from the theoretical "carrying capacity" of the environment.</p>
+<img src="Data/l_arch.png" alt="GAN Image">
+<h3> Duffing Map </h3>
+<p>The Duffing map (also called 'Holmes map') is a discrete-time dynamical system. It is an example of a dynamical system that exhibits chaotic behavior.The map depends on the two constants a and b. These are usually set to a = 2.75 and b = 0.2 to produce chaotic behaviour. It is a discrete version of the Duffing equation</p>
+<img src="Data/duffing_arch.png" alt="GAN Image">
 ## Images
 ### Original Image
 
-![Original Image](data/testa.jpeg)
+![Original Image](Data/testa.jpeg)
 
 
 ### Encrypted Images
